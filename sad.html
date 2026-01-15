@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nehu Feelings of the Day | Sad Feelings</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="sad-page">
+    <!-- Floating clouds -->
+    <div class="floating-clouds">
+        <div class="cloud cloud-1"></div>
+        <div class="cloud cloud-2"></div>
+        <div class="cloud cloud-3"></div>
+    </div>
+
+    <!-- Gentle rain animation -->
+    <div class="rain">
+        <div class="raindrop"></div>
+        <div class="raindrop"></div>
+        <div class="raindrop"></div>
+        <div class="raindrop"></div>
+        <div class="raindrop"></div>
+        <div class="raindrop"></div>
+        <div class="raindrop"></div>
+        <div class="raindrop"></div>
+    </div>
+
+    <div class="container">
+        <header class="page-header">
+            <a href="index.html" class="back-button">← Back to feelings</a>
+            <h1 class="page-title">Tell me what made you sad today.</h1>
+        </header>
+
+        <main class="feeling-form">
+            <form id="sadForm" class="emotion-form">
+                <div class="textarea-wrapper">
+                    <textarea id="sadMessage" placeholder="Pour your heart out here... I'm listening with love 💙" rows="8"></textarea>
+                </div>
+                <button type="submit" class="submit-button sad-button">
+                    <span class="button-text">Send for Hug</span>
+                    <span class="button-icon">🫂</span>
+                </button>
+            </form>
+
+            <div id="responseMessage" class="response-message hidden">
+                <p>Your sadness has been received. Hug incoming. 🤗💙</p>
+            </div>
+        </main>
+
+        <footer class="page-footer">
+            <p>This page exists because your feelings matter to me.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
